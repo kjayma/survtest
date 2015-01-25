@@ -20,9 +20,11 @@ development:
 test:
   <<: *default
   adapter: postgresql
+  encoding: unicode
   statement_limit: 200
 
 production:
   <<: *default
   adapter: postgresql
+  encoding: unicode
   statement_limit: 200
