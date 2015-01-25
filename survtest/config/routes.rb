@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  mount SurveyorGui::Engine => "/my/survey/engine", :as => "surveyor_gui"
+  mount SurveyorGui::Engine => "/surveyor_gui", :as => "surveyor_gui"
   mount Surveyor::Engine => "/surveys", :as => "surveyor"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
