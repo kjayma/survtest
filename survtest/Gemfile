@@ -40,4 +40,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'surveyor', github: 'NUBIC/surveyor'
 gem 'surveyor_gui', :git => 'git://github.com/kjayma/surveyor_gui.git'
+gem 'rails_12factor', group: :production
+ruby "2.1.4"
 
